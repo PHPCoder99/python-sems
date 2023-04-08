@@ -6,6 +6,8 @@
 #
 # 100 -> 1 (1 + 0 + 0) |
 
-num = input()
+num = int(input())
 
-print(f"{int(num[0])+int(num[1])+int(num[2])} ({num[0]} + {num[1]} + {num[2]})")
+print((num//10**0)%10)
+
+print(f"{(num//10**0)%10+(num//10**1)%10+(num//10**2)%10} ({(num//10**0)%10} + {(num//10**1)%10} + {(num//10**2)%10})")

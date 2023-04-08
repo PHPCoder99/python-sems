@@ -9,9 +9,9 @@
 #
 # 123456 -> no
 
-num = input()
+num = int(input())
 
-if int(num[0])+int(num[1])+int(num[2]) == int(num[3])+int(num[4])+int(num[5]):
+if (num//10**0)%10+(num//10**1)%10+(num//10**2)%10 == (num//10**3)%10+(num//10**4)%10+(num//10**5)%10:
     print("yes")
 else:
     print("no")
