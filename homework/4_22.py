@@ -1,0 +1,5 @@
+set1 = set(input().split())
+set2 = set(input().split())
+array = list(set1.intersection(set2))
+array.sort()
+print(*array)
